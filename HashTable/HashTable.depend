@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1532920619 source:/home/ros/codeblock_files/cpp_test/HashTable/main.cpp
+	"stdio.h"
+	"stdlib.h"
+

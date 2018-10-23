@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1537268919 source:/home/ros/codeblock_files/cpp_test/LinkLIst2/main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<typeinfo>
+

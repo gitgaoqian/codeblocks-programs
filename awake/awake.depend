@@ -1,0 +1,76 @@
+# depslib dependency file v1.0
+1524789883 source:/home/ros/iflytek_awaken/src/asr_record.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<errno.h>
+	<unistd.h>
+	"../include/msc/qisr.h"
+	"../include/msc/msp_cmn.h"
+	"../include/msc/msp_errors.h"
+	"../include/asr_record/speech_recognizer.h"
+	"../include/asr_record/play_audio.h"
+	"../include/asr_record/asr_record.h"
+
+1524789883 /home/ros/iflytek_awaken/include/msc/qisr.h
+	"msp_types.h"
+
+1524789883 /home/ros/iflytek_awaken/include/msc/msp_types.h
+
+1524789883 /home/ros/iflytek_awaken/include/msc/msp_cmn.h
+	"msp_types.h"
+
+1524789883 /home/ros/iflytek_awaken/include/msc/msp_errors.h
+
+1524789883 /home/ros/iflytek_awaken/include/asr_record/speech_recognizer.h
+
+1524789883 /home/ros/iflytek_awaken/include/asr_record/play_audio.h
+	<stdio.h>
+
+1524789883 /home/ros/iflytek_awaken/include/asr_record/asr_record.h
+
+1524789883 source:/home/ros/iflytek_awaken/src/linuxrec.c
+	<stdio.h>
+	<stdlib.h>
+	<fcntl.h>
+	<alsa/asoundlib.h>
+	<signal.h>
+	<sys/stat.h>
+	<pthread.h>
+	"../include/asr_record/formats.h"
+	"../include/asr_record/linuxrec.h"
+
+1524789883 /home/ros/iflytek_awaken/include/asr_record/formats.h
+
+1524789883 /home/ros/iflytek_awaken/include/asr_record/linuxrec.h
+	"formats.h"
+
+1524789883 source:/home/ros/iflytek_awaken/src/main.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<errno.h>
+	<unistd.h>
+	"../include/msc/msp_cmn.h"
+	"../include/msc/msp_errors.h"
+	"../include/asr_record/asr_record.h"
+	"../include/awaken/awaken.h"
+	"../include/asr_record/play_audio.h"
+
+1524789883 /home/ros/iflytek_awaken/include/awaken/awaken.h
+
+1524789883 source:/home/ros/iflytek_awaken/src/play_audio.c
+	"../include/asr_record/play_audio.h"
+	"alsa/asoundlib.h"
+
+1524789883 source:/home/ros/iflytek_awaken/src/speech_recognizer.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	"../include/msc/qisr.h"
+	"../include/msc/msp_cmn.h"
+	"../include/msc/msp_errors.h"
+	"../include/asr_record/linuxrec.h"
+	"../include/asr_record/speech_recognizer.h"
+

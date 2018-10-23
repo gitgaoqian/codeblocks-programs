@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1531984822 source:/home/ros/codeblock_files/cpp_test/Binarytree/binarytree.cpp
+	<iostream>
+	"binarytree.h"
+	<stdio.h>
+	<malloc.h>
+	<stack>
+	<queue>
+
+1534943387 /home/ros/codeblock_files/cpp_test/Binarytree/binarytree.h
+
+1532225276 source:/home/ros/codeblock_files/cpp_test/Binarytree/main.cpp
+	<stdio.h>
+	"binarytree.h"
+	<iostream>
+	<unistd.h>
+

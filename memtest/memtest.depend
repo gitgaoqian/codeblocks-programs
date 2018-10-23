@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1537187597 source:/home/ros/codeblock_files/cpp_test/memtest/main.cpp
+	<stdio.h>
+	<string.h>
+	<iostream>
+

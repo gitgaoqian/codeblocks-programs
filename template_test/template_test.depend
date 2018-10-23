@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1539263318 source:/home/ros/codeblock_files/cpp_test/template_test/main.cpp
+	<vector>
+	<list>
+	<deque>
+	<map>
+	<stdio.h>
+	<iostream>
+	<algorithm>
+	<iterator>
+

@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1529741893 source:/home/ros/codeblock_files/cpp_test/Queue/main.cpp
+	<stdio.h>
+	"Queue.h"
+	<iostream>
+
+1529741148 /home/ros/codeblock_files/cpp_test/Queue/Queue.h
+
+1529741850 source:/home/ros/codeblock_files/cpp_test/Queue/Queue.cpp
+	<iostream>
+	"Queue.h"
+	<stdio.h>
+	<malloc.h>
+

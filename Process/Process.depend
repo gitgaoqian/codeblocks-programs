@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1535453818 source:/home/ros/codeblock_files/cpp_test/Process/main.cpp
+	<stdio.h>
+	<sys/wait.h>
+	<sys/types.h>
+	<stdlib.h>
+	<unistd.h>
+

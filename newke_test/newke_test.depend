@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1534404279 source:/home/ros/codeblock_files/cpp_test/newke_test/main.cpp
+	<stdio.h>
+	<iostream>
+

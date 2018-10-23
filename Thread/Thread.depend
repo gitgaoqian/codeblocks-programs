@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1531913040 source:/home/ros/codeblock_files/cpp_test/Thread/main.cpp
+	<iostream>
+	<unistd.h>
+	<thread>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1539588334 source:/home/ros/codeblock_files/cpp_test/STL_Algorithm/main.cpp
+	<iostream>
+	<stdio.h>
+	<algorithm>
+

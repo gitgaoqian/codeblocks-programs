@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1528204489 source:/home/ros/codeblock_files/cpp_test/wengkai/main.cpp
+	<stdio.h>
+	<iostream>
+

@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1532222693 source:/home/ros/codeblock_files/cpp_test/value/head/fun.cpp
+
+1527510952 source:/home/ros/codeblock_files/cpp_test/value/main.cpp
+	<iostream>
+	"head/fun.h"
+
+1527325402 /home/ros/codeblock_files/cpp_test/value/head/fun.h
+

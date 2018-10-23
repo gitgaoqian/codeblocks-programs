@@ -1,0 +1,4 @@
+# depslib dependency file v1.0
+1536800761 source:/home/ros/codeblock_files/cpp_test/ConstructDestruction/main.cpp
+	<iostream>
+

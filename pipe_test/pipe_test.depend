@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1536326421 source:/home/ros/codeblock_files/cpp_test/pipe_test/main.cpp
+	<stdio.h>
+	<unistd.h>
+	<string.h>
+

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1528099862 source:/home/ros/codeblock_files/point/main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<iostream>
+
+1537153381 source:/home/ros/codeblock_files/cpp_test/point/main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<iostream>
+
