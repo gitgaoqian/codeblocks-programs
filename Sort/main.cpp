@@ -55,7 +55,7 @@ void BubbleSort(Sqlist *L)//此处按照从小到大的顺序进行排列,
 void SimpleSelectSort(Sqlist *L)
 {
     int i,j,Min;
-    for(i=0;i<L->length;i++)
+    for(i=0;i<L->length-1;i++)
     {
         Min = i;
         for (j=i+1;j<L->length;j++)

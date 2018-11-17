@@ -98,31 +98,24 @@ using namespace std;
 //}
 
 //shared_ptr的利用
-//int main()
-//{
-//    int *ip = new int(20);
-//    {
-//        shared_ptr<int>  ptr1(ip);
-//    {
-//        cout << ptr1.use_count()<< endl;
-//        shared_ptr<int> ptr2(ptr1);
-//        cout << ptr2.use_count()<< endl;
-//        {
-//            shared_ptr<int> ptr3 = ptr2;
-//            cout << ptr3.use_count()<< endl;
-//        }
-//        cout << ptr2.use_count() << endl;
-//    }
-//    cout << ptr1.use_count()<< endl;
-//    }
-//
-//}
 int main()
 {
-    string s1 = "jafjdkfd";
-    string s2(s1);
-    cout << s1 << endl;
-    cout << s2 << endl;
+    int *ip = new int(20);
+    {
+        shared_ptr<int>  ptr1(ip);
+    {
+        cout << ptr1.use_count()<< endl;
+        shared_ptr<int> ptr2(ptr1);
+        cout << ptr2.use_count()<< endl;
+        {
+            shared_ptr<int> ptr3 = ptr2;
+            cout << ptr3.use_count()<< endl;
+        }
+        cout << ptr2.use_count() << endl;
+    }
+    cout << ptr1.use_count()<< endl;
+    }
 
 }
+
 

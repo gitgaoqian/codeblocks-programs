@@ -8,16 +8,21 @@ class Person
         void GetName();
         void GetHight();
         virtual void GetAge();
+        static void AgeGet();
         Person();
         Person(const char *name,int height,int age);
         Person(const Person &per);
         Person operator+(const Person &per);
+        friend void GetInfo();
     private:
+        static int value;
         int age = 24;
         int hight = 180;
         char name[10]= {'a','b','c','\0'};
+
 };
-Person::Person()//构造函数
+int Person::value = 10;
+Person::Person()//无参构造函数
 {
 
 }
@@ -57,6 +62,18 @@ void Person::GetName()
 {
     cout << "name:" << Person::name << endl;
 }
+void Person::AgeGet()
+{
+    cout << "static Person::AgeGet function:"<< Person::value<<endl;
+}
+void GetInfo(Person &p)
+{
+    p.GetAge();
+    p.GetName();
+    p.GetHight();
+}
+
+
 class Student:public Person
 {
     public:
@@ -76,19 +93,23 @@ void getage(Person &per)
     per.GetAge();
 
 }
+
+
 int main()
 {
     char name[] = "gaoqian";
     int age = 23;
     int height = 183;
 
+    Person::AgeGet();
+
     Student stu(10);
     Person per = stu;//用子类对象来初始化父类对象不存在多态(注意多态条件),子类对象赋值给父类对象，仅仅把继承自父类部分成员函数赋值给父类对象.此时的父类对象动态绑定的依旧是自己的方法.初始化时,调用拷贝构造函数
     per.GetAge();
-    Person &pe = stu;
-    pe.GetAge();
-    Person *p = &stu;
-    p->GetAge();
+
+    GetInfo(per);
+
+
 
 //    GetAge(stu);//函数采用值传递,在临时对象per中会调用Person的拷贝构造函数.
 //    getage(stu);//函数参数是引用,不会产生新的临时对象
